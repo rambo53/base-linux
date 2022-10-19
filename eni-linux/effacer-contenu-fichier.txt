@@ -1,0 +1,7 @@
+//////////////////// EFFACER LE CONTENU D UN FICHIER ////////////////////
+
+Pour effacer uniquement le contenu d'un fichier mais pas le fichier, par exemple un fichier de logs :
+
+- > logs.txt
+
+le symbole ">" indiquera qu'on écrase le contenu du fichier.

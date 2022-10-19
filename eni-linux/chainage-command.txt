@@ -1,0 +1,28 @@
+////////////// CHAINAGE DES COMMANDES ////////////// 
+
+On peut chainer les commandes sur une ligne avec le ";", ici peut importe que les commandes précédentes aient réussit :
+
+- ls -l ; tail logs.txt
+
+////////////// 
+
+Le double "&" permet d'exécuter une suite de command uniquement si toutes aboutissent, si il y a une erreur alors l'enchainement s'arrête :
+
+- ls -l && tail logs.txt
+
+////////////// 
+
+Le double "|" permet d'indiquer que si ma commande précédente n'aboutie pas alors j'en exécute une autre :
+
+- cd foo || mkdir foo && ls
+
+Ici j'essaye d'aller dans le dossier "foo" qui n'existe pas, je lui indique donc si le dossier n'existe pas alors tu le crée, puis tu affiches tous mes fichiers. 
+
+
+////////////// 
+
+Le simple "|" permet d'appliquer un traitement sur le résultat d'une commande précédente :
+
+- wc -l logs.txt | cut -d" " -f1
+
+Ici je récupère le nombre de ligne de mon fichier logs sous ce format "5 logs.txt", sur ce résultat je fais un split avec un délimiteur " " et je récupère la première valeur soit "5".

@@ -1,0 +1,18 @@
+//////////////// ERROR PYTHON ////////////////
+
+Pour récupérer le code erreur d'un script python via un script bash.
+Dans mon script python :
+
+- import sys
+- sys.exit(5)
+
+Dans mon script bash je lance la commande pour exécuter mon script python :
+
+- python3 pythonFile.py
+
+Puis je récupère la valeur du code erreur de la dernière commande dans une variable : 
+
+- errorcode=$(echo $?)
+- echo $errorcode
+
+Affichera "5".

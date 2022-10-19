@@ -1,0 +1,119 @@
+# DESCRIPTION : aide memoire pour les commandes linux
+# AUTEUR : arnaud
+# DATE : 12/10/2022
+# VERSION : 0.1
+
+#RAPPEL
+[COMMANDE] [OPTIONS] [ARGUMENTS]
+COMMANDE = ACTION A FAIRE
+OPTIONS = MODIFIER LE COMPORTEMENT D'UNE COMMANDE
+ARGUMENT = PARAMETRE donnéé en entrée à la commande
+
+# commandes d'aide
+man
+--help
+# commandes de connexion
+su
+su -
+su -l [user] -c [commande]
+# commandes informations sur l'utilisateur
+logname
+whoami
+id
+groups
+# commandes informations sur le terminal
+tty
+who
+# commandes informations sur les dossiers
+pwd
+ls
+cd
+# commandes de gestion sur les dossiers
+mkdir
+rmdir
+cp
+mv
+# commandes informations sur les fichiers
+cat
+less
+more
+head
+tail
+ls
+# commandes de gestion sur les fichiers
+touch
+cp
+rm
+mv
+# commandes de recherche
+grep
+find
+locate
+# commandes de manipulations de fichiers
+wc
+cut
+sed
+grep
+awk
+# alias et liens symboliques
+
+# redirections et tubes
+>
+>>
+2>
+2>&1
+|
+# operateurs
+&
+&&
+||
+# FHS
+/
+/bin
+/boot/
+/dev/
+/etc/
+/home/
+/lib/
+/media/
+/mnt/
+/opt/
+/root/
+/sbin/
+/srv/
+/tmp/
+/usr/
+/usr/bin/
+/usr/include/
+/usr/lib/
+/usr/sbin/
+/var/
+/var/cache/
+/var/log/
+/var/spool/
+/var/tmp/
+# les chemins
+répertoire courant : .
+répertoire parent : ..
+chemin du repertoire personnel : ~ (équivalent à /home/monidentifiant)
+chemin relatif : part du repertoire actuel (ex : monrep/)
+chemin absolu : part de la racine pour traverser de repertoires (ex :
+/home/user)
+# les editeurs
+nano
+vi
+vim
+emacs
+# compression & archivage
+tar
+zip
+# processus
+ps
+kill
+pstree
+pgrep
+time
+lsof
+
+top
+htop

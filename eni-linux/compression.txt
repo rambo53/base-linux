@@ -1,0 +1,11 @@
+/////////////////////// COMPRESSION ///////////////////////
+
+Pour compresser un fichier on a 3 commandes, de la moins à la plus performantes :
+
+- gzip file.txt		** le plus polyvalent **
+- bzip2 file.txt
+- xz file.txt
+
+Pour décompresser :
+
+- gzip -d file.txt
