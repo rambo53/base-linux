@@ -1,0 +1,31 @@
+///////////////////////////////// BASE /////////////////////////////////
+
+Vérifier quel noyau j'utilise :
+
+- uname
+
+- uname -r 	** release, pour la version de linux utilisé **
+
+- uname -a	** détails de mon noyau **
+
+Architecture type d'une machine :
+
+- materiel -> noyau linux -> shell / cmd pour windows -> interface (par exemple gnome ou KDE pour linux)
+
+Linux est open source contrairement à windows qui est propriétaire.
+
+
+/////////////////////////////////
+
+Le noyau linux à pour but de gérer les ressources matérielles, les différentes tâches, et de mettre à disposition de mon user toutes ces ressources.
+On appelle aussi le noyau le "kernel".
+
+/////////////////////////////////
+
+On peut avoir différents shell :
+
+- Bourne shell
+- c shell
+- korn shell
+
+Mais le principal est bash il est une version amélioré du Bourne shell, avec un historique de commandes, l'autocomplétion, et des alias de commande.
