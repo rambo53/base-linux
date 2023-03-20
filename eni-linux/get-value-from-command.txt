@@ -25,3 +25,11 @@ Ou en une ligne :
 Ou plus court :
 
 - sizelogs=$(wc -l file.txt | cut -d" " -f1)
+
+///////////////
+
+Dans un script bash ou dans mon shell pour vérifier si la cmd précédente s'est bien passé j'utilise :
+
+- echo $?
+
+Si le résultat est 0 la cmd s'est exécuté sans pbm. Au dessus de 0 il y a une erreur.
