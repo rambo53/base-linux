@@ -1,0 +1,22 @@
+////////////////////////// CRON //////////////////////////
+
+Activer le service :
+
+- service cron start
+
+Voir si il est fonctionnel :
+
+- service cron status
+
+L'arrêter :
+
+- service cron stop
+
+
+Consulter liste des cron à exécuter :
+
+- crontab -l
+
+Editer cette liste :
+
+- crontab -e
